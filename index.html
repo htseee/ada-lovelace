@@ -3,37 +3,56 @@
 <html>
     <head>
         <title></title>
+        <link href="style.css" rel="stylesheet">
     </head>
     <body>
-        <header>
+        <nav>
             <h1>Ada Lavelace</h1>
-            <nav>
-                <ul>
-                    <li>About me</li>
-                    <li>Projects</li>
-                    <li>Skills</li>                
-                    <li><a href="contact.html">Contacts</a></li>
-                </ul>
-            </nav>
-        </header>
-        <section>
-            <h2>About me</h2>
-            <p>Hi! I'm Ada, Countess of Lovelace and am an English mathematician and writer, chiefly known for my work on Charles Babbage's proposed mechanical general-purpose computer, the Analytical Engine.</p>
-            <p>I am one of the first to recognize that machines have applications beyond pure calculation, and to have published the first algorithm intended to be carried out by such a machine.</p>
-            <p>In my free time I like to read about scientific developments, mathematics, and computational mathematics. I also like to take my chances of winning big.</p>
-            <p>Fun fact! I've been programing for 6,536,987,334 seconds!</p>
-        </section>
-        <section>
-            <h2>Projects</h2>
             <ul>
-                <li>The first computer program</li>
-                <li>The Analytical Engine</li>
-                <li>The Ada programming language</li>
+                <li>About me</li>
+                <li>Projects</li>
+                <li>Skills</li>                
+                <li><a href="contact.html">Contacts</a></li>
             </ul>
+        </nav>
+        
+        <article class="about-me">
+            <img src="image/ada.jpeg" />
+            <section class="about-me-text">
+                <h2>About me</h2>
+                <p>Hi! I'm Ada, Countess of Lovelace and am an English mathematician and writer, chiefly known for my work on Charles Babbage's proposed mechanical general-purpose computer, the Analytical Engine.</p>
+                <p>I am one of the first to recognize that machines have applications beyond pure calculation, and to have published the first algorithm intended to be carried out by such a machine.</p>
+                <p>In my free time I like to read about scientific developments, mathematics, and computational mathematics. I also like to take my chances of winning big.</p>
+                <p>Fun fact! I've been programing for 6,536,987,334 seconds!</p>
+            </section>
+        </article>
+        <section class="projects">
+            <h2>Projects</h2>
+            <article class="first-computer">
+                <h3>The first computer program</h3>
+                <img src="image/47-Magdalen-College-Libraries-and-Archives-Daubeny-90.A.11-fc247cf.webp" />
+                <p>Lovelace program turned a complex formula into simple calculations that could be encoded on punched cards and fed into Charles Babbage Analytical Engine, a mechanical computer that he designed but never built. She published it in 1843, a century before the modern computer age.</p>
+            </article>
+            <article class="analytical-engine">
+                <h3>The Analytical Engine</h3>
+                <img src="image/Babbage_Difference_Engine-5054894.webp" />
+                <p>The ability to solve problems of any level of complexity was what set the analytical engine far apart from any other similar type of calculating machine at the time.</p>
+                <p>Ada stated it could perform more tasks than just those involving numbers. It could also define mutual relations in the fields of operation, science, and more. The analytical engine would be able to manipulate symbols, making it possible for a fundamental shift from mere calculation to actual computation.</p>
+            </article>
+            <article class="ada-programming">
+                <h3>The Ada programming language</h3>
+                <img src="image/Ada_horizon_green_logo_with_slogan.jpg" />
+                <p>Ada was originally designed for embedded and real-time systems. The Ada 95 revision, designed by S. Tucker Taft of Intermetrics between 1992 and 1995, improved support for systems, numerical, financial, and object-oriented programming.</p>
+            </article>
         </section>
-        <section>
+        <section class="skills">
             <h2>Skills</h2>
-
+            <img src="image/html5.png" width="70px" />
+            <img src="image/css.jpg" width="70px" />
+            <img src="image/js.jpg" width="70px" />
+            <img src="image/git.webp" width="70px" />
+            <img src="image/npm.webp" width="70px" />
+            <img src="image/nodejs-logo-1.png" width="70px" />
         </section>
     </body>
 </html>
