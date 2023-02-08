@@ -3,6 +3,9 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0 150px;
 }
+
+/* nav section */
+
 nav {
     text-align: right;
     overflow: hidden;
@@ -14,18 +17,29 @@ nav li {
     display: inline-block;
 }
 nav a {
+    margin-right: 10px;
+    text-decoration: none;    
+}
+nav a:hover {
+    color: blue;
 }
 nav h1 {
     float: left;
 }
-.about-me {
+
+/* about me section */
+
+#about-me {
     overflow: hidden;
 }
-.about-me img {
+#about-me img {
     width: 200px;
     float: right;
     margin: 10px;
 }
+
+/* projects section */
+
 .first-computer, .analytical-engine, .ada-programming {
     overflow: hidden;
 }
@@ -34,6 +48,10 @@ nav h1 {
     float: left;
     margin-right: 10px;
 }
-.skills img {
-    margin-right: 10px;
+
+/* skills section */
+
+#skills img {
+    margin-right: 30px;
+    width: 40px;
 }
